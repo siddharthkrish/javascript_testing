@@ -1,6 +1,3 @@
-machine:  
-  node:
-    version: 8.4.1
 test:  
   override:
     - npm run test-ci
