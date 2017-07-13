@@ -1,0 +1,21 @@
+{
+    "name": "coveralls_tutorial",
+    "version": "0.1.0",
+    "description": "demo for javascript & coveralls testing",
+    "main": "index.js",
+    "author": "Siddharth Krish",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:siddharthkrish/javascript_testing.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "jest-cli": "^20.0.4"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}
