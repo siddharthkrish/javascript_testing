@@ -9,5 +9,5 @@ test('adds 1 + 100 to equal 101',() => {
 })
 
 test('adds 1 + 101 to equal 101',() => {
-    expect(sum(1, 2)).toBe(101)
+    expect(sum(1, 101)).toBe(101)
 })
