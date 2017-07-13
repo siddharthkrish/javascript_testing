@@ -5,7 +5,8 @@
     "main": "index.js",
     "author": "Siddharth Krish",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "test-ci": "jest --config config.json --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
     "repository": {
         "type": "git",
