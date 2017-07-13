@@ -1,8 +1,8 @@
 module.exports = sum
 
     function sum(a, b) {
-        if (a < 0) {
-            a = 0;
+        if (b > 100) {
+            b = 100;
         }
         return a + b;
     }
